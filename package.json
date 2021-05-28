@@ -1,0 +1,22 @@
+{
+  "name": "algo-stuff",
+  "version": "1.0.0",
+  "description": "Based on https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielgeri/algo-stuff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielgeri/algo-stuff/issues"
+  },
+  "homepage": "https://github.com/danielgeri/algo-stuff#readme",
+  "devDependencies": {
+    "jest": "^27.0.1"
+  }
+}
