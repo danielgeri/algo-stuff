@@ -19,3 +19,13 @@ Example 3:
 Input: nums = [3,3], target = 6
 Output: [0,1]
 */
+
+function twoSum() {
+
+}
+
+describe('doc dist - first', function() {
+	it('should return -1 when the value is not present', function() {
+		assert.strictEqual(findPeak(array), 4)
+	});
+});

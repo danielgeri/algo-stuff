@@ -12,3 +12,11 @@ Input: s = "race a car"
 Output: false
 Explanation: "raceacar" is not a palindrome.
 */
+
+function isPalindrome() {}
+
+describe('doc dist - first', function() {
+	it('should return -1 when the value is not present', function() {
+		assert.strictEqual(findPeak(array), 4)
+	});
+});

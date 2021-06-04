@@ -23,3 +23,11 @@ string = "AAAAAAAAAAAAABBCCCCDD"
 Sample Output
 "9A4A2B4C2D"
 */
+
+function runLengthEncoding() {}
+
+describe('doc dist - first', function() {
+	it('should return -1 when the value is not present', function() {
+		assert.strictEqual(findPeak(array), 4)
+	});
+});

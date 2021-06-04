@@ -9,10 +9,6 @@ https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-in
 ## Document Distance
 https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-2-models-of-computation-document-distance
 
-### Problems
-- https://leetcode.com/problems/two-sum/
-- 
-
 ## Insertion Sort, Merge Sort
 https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-3-insertion-sort-merge-sort 
 
