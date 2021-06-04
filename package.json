@@ -4,7 +4,7 @@
   "description": "Based on https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/danielgeri/algo-stuff#readme",
   "devDependencies": {
-    "jest": "^27.0.1"
+    "mocha": "^8.4.0"
   }
 }
