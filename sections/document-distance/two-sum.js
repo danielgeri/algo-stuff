@@ -18,14 +18,27 @@ Example 3:
 
 Input: nums = [3,3], target = 6
 Output: [0,1]
+
+//* 2. on each iteration subtract the current element from the target and check to see if the resultant difference is in the map
 */
+//* 1. map the numbers onto an object, the value of which is the index
+//* 3. if so, return the values of those properties, if not continue the loop
 
-function twoSum() {
+function twoSum(array, target) {
+  const numberMap = {};
 
+  array.forEach((number, index) => {
+    if (numberMap[String(target - number)]) {
+      return [numberMap[String(target - number)], index];
+    }
+    numberMap[number] = index;
+  });
+
+  return false;
 }
 
-describe('doc dist - first', function() {
-	it('should return -1 when the value is not present', function() {
-		assert.strictEqual(findPeak(array), 4)
-	});
+describe('doc dist - first', function () {
+  it('should pass', function () {
+    assert.strictDeepEqual(twoSum([2, 7, 11, 15], 9), [0, 1]);
+  });
 });

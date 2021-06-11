@@ -1,4 +1,4 @@
-const assert = require('assert')
+const assert = require('assert');
 
 /*
   You're given a string of characters and a string representing a
@@ -31,6 +31,10 @@ true
 // 1) check if both args are empty strings -> return true
 // 2) check to see if the lengths of the args are the same.  if not -> false
 // 3) some kind of object mapping strategy
+// 4) iterate over the strings and:
+// .   a) for every character in chars map a +1 to a property with the name of the char
+//     b) for every character in doc map a -1 to a property with the name of the char
+//
 function genDoc(chars, doc) {
   if (!chars && !doc) {
     return false;
@@ -39,10 +43,15 @@ function genDoc(chars, doc) {
   if (chars.length !== doc.length) {
     return false;
   }
+
+  const charsMap = {};
+  const docMap = {};
+
+  for (let i = 0; i < chars.length; i++) {}
 }
 
-describe('doc dist - generate doc', function() {
-	it('should pass', function() {
-		assert.strictEqual(genDoc('Bste!hetsi ogEAxpelrt x ', 'AlgoExpert is the Best!'), true)
-	});
+describe('doc dist - generate doc', function () {
+  it('should pass', function () {
+    assert.strictEqual(genDoc('Bste!hetsi ogEAxpelrt x ', 'AlgoExpert is the Best!'), true);
+  });
 });
