@@ -1,3 +1,4 @@
+/*
 Implement Merge Sort
 
  
@@ -18,7 +19,7 @@ Return the sorted integer array.
 
 Input/Output Format For The Custom Input:
 
-/*
+
 Input Format:
 
 First line contains integer n, the number of integers. The next n lines contains an integer each.
